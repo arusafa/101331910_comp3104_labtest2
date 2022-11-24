@@ -1,0 +1,35 @@
+/* Weather App css */
+
+.search-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 100px;
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+}
+
+.search-box input{
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 1.5rem;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 500px;
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+}
+
+
+.date{
+  align-items: center;
+}
